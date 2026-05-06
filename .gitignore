@@ -1,0 +1,30 @@
+# Local / generated data (too large for GitHub)
+/data/
+/out/
+notebooks/out/
+
+# Shapefile sidecars (often large .dbf)
+*.dbf
+*.shp
+*.shx
+*.prj
+*.cpg
+*.qpj
+
+# File geodatabase folders
+*.gdb/
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp
